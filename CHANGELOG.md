@@ -1,3 +1,8 @@
+# 1.0.0
+
+- Make package compatible with react-16. This involved upgrading leaflet, react-leaflet, react, and react-dom, and adding the prop-types package. 
+
+
 # 0.0.3 Release
 
 - Correct issue introduced with removal of 'moveend' listener

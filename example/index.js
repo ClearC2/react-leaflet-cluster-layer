@@ -1,7 +1,10 @@
 import React from 'react';
 import { render } from 'react-dom';
+import PropTypes from 'prop-types';
 import { Map, Marker, Popup, TileLayer } from 'react-leaflet';
 import ClusterLayer from '../src/ClusterLayer';
+
+ClusterLayer.prototype.createLeafletElement = () => {}
 
 const position = { lng: -122.673447, lat: 45.522558 };
 const markers = [
