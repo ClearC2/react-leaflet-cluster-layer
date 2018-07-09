@@ -112,6 +112,10 @@ export default class ClusterLayer extends MapLayer {
     minClusterSize: PropTypes.number
   };
 
+  static contextTypes: Object = {
+    map: PropTypes.object
+  };
+
   state: Object = {
     clusters: []
   };
